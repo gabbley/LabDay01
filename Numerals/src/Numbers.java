@@ -21,8 +21,6 @@ public class Numbers {
 		
 		System.out.printf("Adding %d and %d results in %d\n", x, y, (x+y));
 		keyboard.close();
-		System.out.println("Test Change");
-		System.out.println("yeah");
 	}
 
 }
