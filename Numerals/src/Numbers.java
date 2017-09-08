@@ -48,6 +48,5 @@ public class Numbers {
 		return x%y;
 	}
 	
-	
 
 }
