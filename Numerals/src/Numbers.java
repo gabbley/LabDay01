@@ -18,33 +18,33 @@ public class Numbers {
 		
 		int x = keyboard.nextInt();
 		int y = keyboard.nextInt();
-		System.out.printf("SUM: %d + %d = %d\n", x, y, sum(x,y) +
-				"DIFFERENCE: %d - %d = %d\n ", x, y, sum(x,y) +
-				"PRODUCT: %d * %d = %d\n ", x, y, sum(x,y) + 
-				"QUOTIENT: %d / %d = %d\n ", x, y, sum(x,y) +
-				"MODULUS: %d % %d = %d\n ", x, y, sum(x,y)
+		System.out.printf("SUM: " + sum(x,y) + "\n" +
+				"DIFFERENCE: "+ diff(x,y) + "\n" +
+				"PRODUCT: "+ prod(x,y) +  "\n" +
+				"QUOTIENT: " + quot(x,y) + "\n" +
+				"MODULUS: "+ mod(x,y)
 				);
 		keyboard.close();
 		
 	}
 	
-	public int sum(int x, int y){
+	public static double sum(int x, int y){
 		return x+y;
 	}
 	
-	public int diff(int x, int y){
+	public static double diff(int x, int y){
 		return x-y;
 	}
 	
-	public int prod(int x, int y){
+	public static double prod(int x, int y){
 		return x*y;
 	}
 	
-	public int quot(int x, int y){
+	public static double quot(int x, int y){
 		return x/y;
 	}
 	
-	public int mod(int x, int x){
+	public static double mod(int x, int y){
 		return x%y;
 	}
 	
